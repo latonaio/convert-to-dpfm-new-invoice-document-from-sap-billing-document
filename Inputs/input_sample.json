@@ -1,0 +1,153 @@
+{
+	"connection_key": "response",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "",
+	"business_partner": 101,
+	"service_label": "FUNCTION_INVOICE_DOCUMENT",
+	"BillingDocument": {
+		"BillingDocument": "90000000",
+		"BillingDocumentType": "",
+		"SDDocumentCategory": "",
+		"BillingDocumentCategory": "",
+		"CreationDate": "",
+		"LastChangeDate": "",
+		"SalesOrganization": "",
+		"DistributionChannel": "",
+		"Division": "",
+		"BillingDocumentDate": "2022-10-21",
+		"BillingDocumentIsCancelled": null,
+		"CancelledBillingDocument": "",
+		"IsExportDelivery": "",
+		"TotalNetAmount": "10000",
+		"TransactionCurrency": "JPY",
+		"TaxAmount": "1000",
+		"TotalGrossAmount": "11000",
+		"CustomerPriceGroup": "",
+		"IncotermsClassification": "CIF",
+		"CustomerPaymentTerms": "0001",
+		"PaymentMethod": "T",
+		"CompanyCode": "",
+		"AccountingDocument": "",
+		"ExchangeRateDate": "",
+		"ExchangeRateType": "",
+		"DocumentReferenceID": "",
+		"SoldToParty": "",
+		"PartnerCompany": "",
+		"PurchaseOrderByCustomer": "",
+		"CustomerGroup": "",
+		"Country": "JP",
+		"CityCode": "",
+		"Region": "",
+		"CreditControlArea": "",
+		"OverallBillingStatus": "",
+		"AccountingPostingStatus": "",
+		"AccountingTransferStatus": "",
+		"InvoiceListStatus": "",
+		"BillingDocumentListType": "",
+		"BillingDocumentListDate": "",
+		"HeaderPartner": [
+			{
+				"PartnerFunction": "BL",
+				"Customer": "1000",
+				"Supplier": ""
+			},
+			{
+					"PartnerFunction": "PY",
+					"Customer": "1000",
+					"Supplier": ""
+			},
+			{
+				"PartnerFunction": "SH",
+				"Customer": "1000",
+				"Supplier": "2000"
+			},
+			{
+				"PartnerFunction": "AG",
+				"Customer": "1000",
+				"Supplier": "2000"
+			}
+		],
+		"BillingDocumentItem": [
+			{
+				"BillingDocumentItem": "9000000",
+				"SalesDocumentItemCategory": "",
+				"ReturnItemProcessingType": "",
+				"CreationDate": "",
+				"Division": "",
+				"Material": "P001",
+				"InternationalArticleNumber": "",
+				"Batch": "",
+				"MaterialGroup": "10",
+				"Plant": "",
+				"StorageLocation": "",
+				"BillingDocumentItemText": "Test",
+				"BillingQuantity": "100",
+				"BillingQuantityUnit": "",
+				"NetAmount": "1000",
+				"TransactionCurrency": "JPY",
+				"GrossAmount": "1100",
+				"PricingDate": "",
+				"TaxAmount": "100",
+				"MaterialPricingGroup": "",
+				"MainItemMaterialPricingGroup": "",
+				"BusinessArea": "",
+				"ProfitCenter": "",
+				"WBSElement": "",
+				"ControllingArea": "",
+				"ProfitabilitySegment": "",
+				"OrderID": "",
+				"CostCenter": "",
+				"ReferenceSDDocument": "",
+				"ReferenceSDDocumentItem": "",
+				"MatlAccountAssignmentGroup": "",
+				"SalesDocument": "",
+				"SalesDocumentItem": "",
+				"SDDocumentReason": "",
+				"ShippingPoint": "",
+				"ItemPartner": [
+					{
+						"PartnerFunction": "",
+						"Customer": "",
+						"Supplier": ""
+					}
+				],
+				"ItemPricingElement": [
+					{
+						"PricingProcedureStep": "",
+						"PricingProcedureCounter": "100",
+						"ConditionType": "PR00",
+						"PricingDateTime": "",
+						"ConditionCalculationType": "",
+						"ConditionBaseValue": "",
+						"ConditionRateValue": "10",
+						"ConditionCurrency": "JPY",
+						"ConditionQuantity": "100",
+						"ConditionQuantityUnit": "",
+						"ConditionCategory": "",
+						"PricingScaleType": "",
+						"ConditionRecord": "10",
+						"ConditionSequentialNumber": "1000",
+						"TaxCode": "A0",
+						"ConditionAmount": "",
+						"TransactionCurrency": "JPY",
+						"PricingScaleBasis": "",
+						"ConditionScaleBasisValue": "",
+						"ConditionScaleBasisUnit": "",
+						"ConditionScaleBasisCurrency": "",
+						"ConditionIsManuallyChanged": null
+					}
+				]
+			}
+		]
+	},
+	"api_schema": "SAPBillingDocumentCreates",
+	"accepter": ["All"],
+	"billing_document_no": "",
+	"deleted": false
+}
+
+
+
